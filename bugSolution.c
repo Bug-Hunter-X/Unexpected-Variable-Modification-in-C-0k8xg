@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x;  /*Pointer is correctly assigned*/ int y = *ptr; /*Value at memory location pointed by ptr is assigned to y*/ y = 20; /* y is modified not x */ printf("%d", x); return 0; }
